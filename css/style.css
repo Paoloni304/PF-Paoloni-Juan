@@ -81,7 +81,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/fondo-hero.jpg");
+    url("../imgs/fondo-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -139,7 +139,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/burger-1.jpeg");
+    url("../imgs/burger-1.jpeg");
 }
 .card:nth-child(2) {
   background-image: linear-gradient(
@@ -147,7 +147,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/burger-2.jpeg");
+    url("../imgs/burger-2.jpeg");
 }
 .card:nth-child(3) {
   background-image: linear-gradient(
@@ -155,7 +155,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/burger-3.jpeg");
+    url("../imgs/burger-3.jpeg");
 }
 .card:nth-child(4) {
   background-image: linear-gradient(
@@ -163,7 +163,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/lomo-1.jpg");
+    url("../imgs/lomo-1.jpg");
 }
 .card:nth-child(5) {
   background-image: linear-gradient(
@@ -171,7 +171,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/lomo-2.jpg");
+    url("../imgs/lomo-2.jpg");
 }
 .card:nth-child(6) {
   background-image: linear-gradient(
@@ -179,7 +179,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/lomo-3.jpg");
+    url("../imgs/lomo-3.jpg");
 }
 
 #main-promos {
@@ -221,7 +221,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/2-1-01.jpg");
+    url("../imgs/2-1-01.jpg");
 }
 .card-promo:nth-child(2) {
   background-image: linear-gradient(
@@ -229,7 +229,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/3-1-01.jpg");
+    url("../imgs/3-1-01.jpg");
 }
 .card-promo:nth-child(3) {
   background-image: linear-gradient(
@@ -237,7 +237,7 @@ header a:hover {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/imgs/3-2-01.jpg");
+    url("../imgs/3-2-01.jpg");
 }
 form {
   max-width: 700px;
