@@ -130,58 +130,9 @@ header a:hover {
   padding: 50px;
   margin: 20px;
   border-radius: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-.card:first-child {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/burger-1.jpeg");
-}
-.card:nth-child(2) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/burger-2.jpeg");
-}
-.card:nth-child(3) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/burger-3.jpeg");
-}
-.card:nth-child(4) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/lomo-1.jpg");
-}
-.card:nth-child(5) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/lomo-2.jpg");
-}
-.card:nth-child(6) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/lomo-3.jpg");
-}
-
 #main-promos {
   background-color: rgb(245, 245, 245);
   text-align: center;
@@ -199,59 +150,29 @@ header a:hover {
   text-align: center;
   margin-top: 0;
 }
-#main-promos p {
+/*#main-promos p {
   padding-top: 90px;
-}
+}*/
 #main-promos button {
   font-size: 1em;
   border-radius: 8px;
 }
-#main-promos .card-promo {
+#main-promos .card {
   background-position: center center;
   background-size: cover;
-  padding: 20px;
+  padding: 15px;
   margin: 20px;
   border-radius: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-.card-promo:first-child {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/2-1-01.jpg");
-}
-.card-promo:nth-child(2) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/3-1-01.jpg");
-}
-.card-promo:nth-child(3) {
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../imgs/3-2-01.jpg");
-}
 form {
-  max-width: 700px;
+  /*max-width: 700px;*/
   margin: 50px 20px;
   background-color: #b41f14;
   padding: 10px 20px;
   box-sizing: border-box;
   border-radius: 15px;
-}
-#formulario {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60vh;
 }
 #formulario h2 {
   color: white;
@@ -302,12 +223,12 @@ footer .container {
   justify-content: center;
   align-items: flex-end;
 }
+.row {
+  align-items: center;
+  justify-content: center;
+}
 
 @media (min-width: 720px) {
-  header {
-    position: fixed;
-    width: 100%;
-  }
   header .container {
     flex-direction: row;
     justify-content: space-between;
@@ -339,16 +260,6 @@ footer .container {
   header .logo {
     padding: 25px 25px;
   }
-  #main-productos .menu {
-    margin: auto;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-  }
   #main-productos .card {
     width: 25%;
   }
@@ -358,7 +269,17 @@ footer .container {
   #main-productos .card {
     padding: 15px;
   }
+  #main-promos .card {
+    width: 25%;
+  }
+  #main-promos p {
+    display: block;
+  }
   footer .container {
     justify-content: flex-end;
+  }
+  #main-nosotros .imagen-nosotros {
+    height: 500px;
+    width: 400px;
   }
 }
