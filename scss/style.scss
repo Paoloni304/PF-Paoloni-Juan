@@ -1,0 +1,291 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 550;
+}
+p {
+  font-size: 1.25em;
+}
+button {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #f02518;
+  :hover {
+    background-color: #b41e14;
+  }
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+header {
+  background-color: #f02518;
+  .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: 720;
+    color: white;
+    font-size: 2em;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+  }
+  a:hover {
+    color: rgb(177, 177, 177);
+  }
+}
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  color: white;
+  padding: 0px 25px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../imgs/fondo-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.color-acento {
+  color: #b41e14;
+}
+#hero h1 {
+  color: white;
+}
+#main-nosotros {
+  height: 55vh;
+  padding: 0px 15px;
+  margin: 0;
+  h1 {
+    text-align: center;
+  }
+  .imagen-nosotros {
+    display: none;
+  }
+}
+#main-productos {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  .container {
+    padding: 50px 0px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 2.8em;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 0;
+  }
+  p {
+    display: none;
+  }
+  button {
+    font-size: 1em;
+    border-radius: 8px;
+  }
+  .card {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+#main-promos {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  .container {
+    padding: 50px 0px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+  h2 {
+    font-size: 2.8em;
+  }
+  h3 {
+    text-align: center;
+    margin-top: 0;
+  }
+  button {
+    font-size: 1em;
+    border-radius: 8px;
+  }
+  .card {
+    background-position: center center;
+    background-size: cover;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+}
+form {
+  /*max-width: 700px;*/
+  margin: 50px 20px;
+  background-color: #b41f14;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+#formulario h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+}
+#formulario input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 1em;
+  border: none;
+}
+#formulario textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+  background-color: white;
+  :hover {
+    background-color: rgb(211, 211, 211);
+    cursor: pointer;
+  }
+}
+
+footer {
+  background-color: rgb(230, 230, 230);
+  p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+  }
+  .container {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}
+.row {
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 720px) {
+  header {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .logo {
+      padding: 25px 25px;
+    }
+    nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+  }
+  #hero .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    padding: 0px 25px;
+    margin: 0;
+    p {
+      width: 50%;
+      max-width: 800px;
+    }
+    h1 {
+      margin-bottom: 0;
+    }
+    button {
+      font-size: 1.5em;
+    }
+  }
+  #main-productos {
+    .card {
+      width: 25%;
+      padding: 15px;
+    }
+    p {
+      display: block;
+    }
+  }
+  #main-promos p {
+    display: block;
+  }
+  footer {
+    margin-top: auto;
+    .container {
+      justify-content: flex-end;
+    }
+  }
+  #main-nosotros {
+    padding: 60px 30px;
+    min-height: 90vh;
+    .imagen-nosotros {
+      display: block;
+    }
+  }
+}

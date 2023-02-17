@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paoloni304/Proyecto-desarrollo-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paoloni304/Proyecto-desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/Paoloni304/Proyecto-desarrollo-web#readme"
+}
