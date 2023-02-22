@@ -1,0 +1,33 @@
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 550;
+}
+p {
+  font-size: 1.25em;
+}
+button {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: #f02518;
+  :hover {
+    background-color: #b41e14;
+  }
+}
+.color-acento {
+  color: #b41e14;
+}
+.row {
+  align-items: center;
+  justify-content: center;
+}

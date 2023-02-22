@@ -1,15 +1,3 @@
-@import "globals";
-@import "body";
-@import "components";
-@import "container";
-@import "footer";
-@import "header";
-@import "index";
-@import "nav";
-@import "pages/contacto";
-@import "pages/nosotros";
-@import "pages/productos";
-@import "pages/promos";
 @media (min-width: 720px) {
   header {
     .container {
