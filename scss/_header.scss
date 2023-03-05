@@ -1,6 +1,12 @@
 header {
   background-color: #f02518;
   .logo {
+    @media (min-width: 720px) {
+      .logo {
+        padding: 25px 25px;
+      }
+      padding: 25px 25px;
+    }
     margin: 0;
     padding: 25px 30px;
     font-weight: 720;
@@ -8,6 +14,10 @@ header {
     font-size: 2em;
   }
   .container {
+    @media (min-width: 720px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
     display: flex;
     flex-direction: column;
     align-items: center;

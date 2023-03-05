@@ -6,6 +6,11 @@ form {
   box-sizing: border-box;
   border-radius: 15px;
 }
+#formulario {
+  @media (min-width: 720px) {
+    height: 80vh;
+  }
+}
 #formulario h2 {
   color: white;
   text-align: center;
@@ -39,4 +44,10 @@ textarea {
     background-color: rgb(211, 211, 211);
     cursor: pointer;
   }
+}
+h1 {
+  padding-top: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }

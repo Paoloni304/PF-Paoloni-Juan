@@ -1,4 +1,13 @@
 #main-productos {
+  @media (min-width: 720px) {
+    .card {
+      width: 25%;
+      padding: 15px;
+    }
+    p {
+      display: block;
+    }
+  }
   background-color: rgb(245, 245, 245);
   text-align: center;
   .container {

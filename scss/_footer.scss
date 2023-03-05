@@ -1,4 +1,7 @@
 footer {
+  @media (min-width: 720px) {
+    margin-top: auto;
+  }
   background-color: rgb(230, 230, 230);
   p {
     margin: 0;
@@ -6,6 +9,9 @@ footer {
     color: rgb(100, 100, 100);
   }
   .container {
+    @media (min-width: 720px) {
+      justify-content: flex-end;
+    }
     height: 130px;
     display: flex;
     justify-content: center;
